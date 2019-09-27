@@ -14,6 +14,7 @@ app.use('/posts', postsRoute);
 
 // routes
 app.get('/', (req, res) => {
+	res.redirect('/posts');
 	res.send('we are live!!!')
 })
 
